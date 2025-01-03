@@ -1,12 +1,12 @@
 package com.amazon.pages;
 
-import com.amazon.configurations.amazonConfigurationHW;
+import com.amazon.configurations.WebTestBase;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 
 import java.time.Duration;
 
-public class amazonhwPage extends amazonConfigurationHW {
+public class amazonhwPage extends WebTestBase {
 
 
     public static void amazonHwHomepage() {
